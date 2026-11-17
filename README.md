@@ -1,34 +1,51 @@
-# 🛡️ CryptoHub - Multi-Cipher Tool
+CryptoHub — Multi-Cipher & Password Toolkit
 
-**CryptoHub** is a sleek, powerful, and user-friendly web-based tool designed to encrypt and decrypt text using various algorithms. Whether you're learning about cryptography or sending secret messages, CryptoHub makes it easy and stylish.
-
-## ✨ Key Features
-
-* **Multi-Algorithm Support:**
-* **Caesar Cipher:** Classic shift-based encryption with custom keys.
-* **Base64 Encoding:** The standard format for data transmission and storage.
-* **Text Reverser:** A fun tool to flip your messages instantly.
+A responsive, browser-only toolkit built with HTML, CSS and vanilla JavaScript. Designed for GitHub Pages.
 
 
-* **Real-time Processing:** No need to click "Run" – results appear instantly as you type.
-* **Smart UI/UX:** The interface dynamically changes (hides/shows fields) based on the algorithm you select.
-* **One-Click Copy:** Quickly copy your encrypted or decrypted results to the clipboard.
-* **Modern Design:** Features a premium dark-themed "Glassmorphism" look with neon accents.
-* **Fully Responsive:** Optimized for mobile, tablet, and desktop screens.
+Features
 
-## 🛠️ Technologies Used
 
-Built using pure Vanilla web technologies (No external libraries required):
+Caesar, Base64 (UTF-8), ROT13, Atbash and Vigenère cipher
 
-* **HTML5** – For semantic structure.
-* **CSS3** – For advanced styling, gradients, and animations.
-* **JavaScript (ES6+)** – For encryption logic and DOM manipulation.
+Encrypt/decrypt modes, copy, swap, reset and sample text
 
-## 🚀 How to Use
+Password generator using crypto.getRandomValues() with configurable length and character sets
 
-1. **Download** the `index.html` file from this repository.
-2. **Open** the file in any modern web browser (Chrome, Safari, Firefox, Edge).
-3. **Select** your preferred algorithm from the dropdown menu.
-4. **Choose** between Encode or Decode mode.
-5. **Type** your message in the input box, and the result will appear instantly below!
-6. 
+Password strength/entropy estimate
+
+Text statistics, letter-frequency analysis and Caesar brute force
+
+Local-only recent cipher history (browser localStorage)
+
+Mobile responsive dark cybersecurity interface
+
+
+Deploy on GitHub Pages
+
+
+Download and unzip this project.
+
+Open the cryptohub-pro folder.
+
+Upload index.html and README.md to your GitHub repository root.
+
+In GitHub, open Settings → Pages.
+
+Select Deploy from a branch, choose main and / (root), then Save.
+
+Open the published Pages URL.
+
+
+Privacy & security notes
+
+
+No backend, database, analytics, API or external dependency is used.
+
+Passwords are generated locally with the browser's Web Crypto API and are not stored by this app.
+
+Cipher history is stored only in this browser's localStorage. Clear it from the History tab or clear site data.
+
+Classical ciphers are educational and are not secure encryption for sensitive data.
+
+The password strength estimate is approximate; use a password manager and unique passwords.
